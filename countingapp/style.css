@@ -1,0 +1,67 @@
+body {
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30rem;
+
+}
+
+
+
+.one {
+    padding: 1.8rem 2.4rem;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(31, 216, 31);
+    border: #122 2px solid;
+    cursor: pointer;
+}
+
+.two {
+    padding: 1.8rem 2.4rem;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(216, 31, 31);
+    border: #122 2px solid;
+    margin-left: 5rem;
+    cursor: pointer;
+}
+
+#save {
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 0 25.1rem;
+}
+
+.save-btn {
+    padding: 1rem 16.4rem 1rem 16.4rem;
+    background-color: #223;
+    border: #111 2px solid;
+    color: #ddd;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.count {
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 25rem;
+    border: #444 1px solid;
+    font-size: 3.1rem;
+    padding: 12px;
+    line-height: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #dee;
+}
+
+#saved{
+    font-size: 3rem;  
+    margin: 1rem 0 0 41rem;
+
+}
